@@ -2,14 +2,22 @@
 	<head>
 		<title>Drake Soundboard</title>
 		<link rel="stylesheet" type="text/css" href="soundboard.css">
+		<script language="javascript" type="text/javascript">
+ 		function playSound(soundfile) {
+ 		document.getElementById("cheese").innerHTML=
+ 		"<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\"loop=\"false\" />";
+ 		}
+ 		</script>
 	</head>
 	<body>
 		<div class="container">
 			<h1>Drake Soundboard</h1>
 		</div>
+		<a href="#" class="testbutton" onclick="playSound('SoundClips/cheese.mp3');">Cheese</a>
 		<a href="#" class="testbutton">Flexin'</a>
 		<a href="#" class="testbutton">Look What You've Done</a>
 		<a href="#" class="testbutton">Own it</a>
 		<a href="#" class="testbutton">Started</a>
+		<span id="cheese"></span>
 	</body>
 </html>
