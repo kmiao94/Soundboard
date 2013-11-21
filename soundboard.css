@@ -23,3 +23,31 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
   background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
 }
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+body {
+  text-align: center;
+}
+
+.board {
+  background: url("http://www.chwv.co.uk/CHWVNewsletters/SummerVenues08/Images/Stock.Xchng/BlueSky.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 60px;
+}
+
+.button {
+  margin: 10px;
+  height: 120px;
+  width: 100px;
+  display: inline-block;
+}
+

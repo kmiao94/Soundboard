@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
 		<title>Drake Soundboard</title>
 		<link rel="stylesheet" type="text/css" href="soundboard.css">
 		<script language="javascript" type="text/javascript">
@@ -11,16 +13,30 @@
  		</script>
 	</head>
 	<body>
-		<center>
 		<div class="container">
 			<h1>Drake Soundboard</h1>
 		</div>
-		<a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="http://www.billboard.com/files/styles/promo_650/public/media/drake-cover-650.jpg" height="45" width="65" onmouseover="this.src='http://www.spin.com/sites/all/files/styles/style820_546/public/130821-drake-nothing-was-the-same-mtv-video-music-awards-release-date.jpg'" onmouseout="this.src='http://www.billboard.com/files/styles/promo_650/public/media/drake-cover-650.jpg'"/></a>
-		<a href="#" class="testbutton">Flexin'</a>
-		<a href="#" class="testbutton">Look What You've Done</a>
-		<a href="#" class="testbutton">Own it</a>
-		<a href="#" class="testbutton">Started</a>
-		<span id="cheese"></span>
-		</center>
+
+		<div class="board">
+			<div class="row">
+			<div class="button">
+			<a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="http://www.billboard.com/files/styles/promo_650/public/media/drake-cover-650.jpg" height="135" width="195" onmouseover="this.src='http://www.spin.com/sites/all/files/styles/style820_546/public/130821-drake-nothing-was-the-same-mtv-video-music-awards-release-date.jpg'" onmouseout="this.src='http://www.billboard.com/files/styles/promo_650/public/media/drake-cover-650.jpg'"/></a>
+			</div>
+
+			<div class="button">
+			<a href="#" class="testbutton">Flexin'</a>
+			</div>
+			<div class="button">
+			<a href="#" class="testbutton">Look</a>
+			</div>
+			<div class="button">
+			<a href="#" class="testbutton">Own it</a>
+			</div>
+			<div class="button">
+			<a href="#" class="testbutton">Started</a>
+			</div>
+		</div>
+			<span id="cheese"></span>
+		</div>
 	</body>
 </html>
