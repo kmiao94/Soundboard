@@ -32,22 +32,17 @@ body {
   text-align: center;
 }
 
-.board {
-  background: url("http://www.chwv.co.uk/CHWVNewsletters/SummerVenues08/Images/Stock.Xchng/BlueSky.jpg");
+#board {
+  background-image: url("Pictures/bluesky-temp.jpg");
   background-size: cover;
+  border-radius: 20px;
   height: 600px;
   width: 800px;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
-.row {
-  margin: 60px;
+table {
+  width: 800px;
+  height: 600px;
 }
-
-.button {
-  margin: 10px;
-  height: 120px;
-  width: 100px;
-  display: inline-block;
-}
-
