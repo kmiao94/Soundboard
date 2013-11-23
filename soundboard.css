@@ -1,5 +1,5 @@
 .testbutton {
-  font-family: arial;
+  font-family: futura;
   color: #14396A !important;
   font-size: 14px;
   text-shadow: 1px 1px 0px #7CACDE;
@@ -25,7 +25,8 @@
 }
 
 h1 {
-  font-family: 'Rock Salt', cursive;
+  font-family: futura;
+  font-size: 72;
 }
 
 body {
