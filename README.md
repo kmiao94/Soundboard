@@ -3,9 +3,9 @@ Soundboard: Drake
 Things to do:
 <ul>
   <li>Add a grid or some kind of background</li>
-  <li>Make the buttons clickable images (of Drake's face)</li>
+  <li><del>Make the buttons clickable images (of Drake's face)</del></li>
   <ul>
-    <li>Change the image to light up or something upon hover</li>
+    <li><del>Change the image to light up or something upon hover</del></li>
   </ul>
   <li><del>Use HTML5 to make it so Quicktime player isn't required to play files</del></li>
   <li>Add keyboard shortcuts</li>
