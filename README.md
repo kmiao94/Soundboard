@@ -12,4 +12,6 @@ Things to do:
   <li><del>A share button?</del></li>
   <li>New sound trigger after specific amount of clicks</li>
   <li>Choose/create sounds</li>
+  <li>Short description on the side?</li>
+  <li>Some kind of menu?</li>
 </ul>
