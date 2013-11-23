@@ -7,7 +7,7 @@ Things to do:
   <ul>
     <li>Change the image to light up or something upon hover</li>
   </ul>
-  <li>Use HTML5 to make it so Quicktime player isn't required to play files</li>
+  <li>Use HTML5 to make it so Quicktime player isn't required to play files (DONE)</li>
   <li>Add keyboard shortcuts</li>
-  <li><b>A share button?</b></li>
+  <li>A share button? (DONE)</li>
 </ul>
