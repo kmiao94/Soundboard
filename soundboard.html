@@ -5,19 +5,11 @@
 
 		<title>Drake Soundboard</title>
 		<link rel="stylesheet" type="text/css" href="soundboard.css">
-		<script language="javascript" type="text/javascript">
- 		function playSound(soundfile) {
- 		document.getElementById("soundclip").innerHTML=
- 		"<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\"loop=\"false\" />";
- 		}
- 		</script>
 	</head>
 	<body>
 		<div class="container">
 			<h1>DRAKE SOUNDBOARD</h1>
 		</div>
-
-		<span id="soundclip"></span>
 
 		<div id="board">
 
@@ -25,15 +17,19 @@
 
 				<tr>
 
-				<td><a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="Pictures/Drake1white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake2white.png'" onmouseout="this.src='Pictures/Drake1white.png'"/></a></td>
+				<td><a href="#" onclick="clicksound.playclip()"><img src="Pictures/Drake1white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake2white.png'" onmouseout="this.src='Pictures/Drake1white.png'"/></a></td>
 
-				<td><a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="Pictures/Drake3white.png" height="120" width="90" onmouseover="this.src='Pictures/Drake4white.png'" onmouseout="this.src='Pictures/Drake3white.png'"/></a></td>
+				<td><a href="#" onclick="clicksound.playclip()"><img src="Pictures/Drake3white.png" height="120" width="90" onmouseover="this.src='Pictures/Drake4white.png'" onmouseout="this.src='Pictures/Drake3white.png'"/></a></td>
 
-				<td><a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="Pictures/Drake5white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake6white.png'" onmouseout="this.src='Pictures/Drake5white.png'"/></a></td>
+				<td><a href="#" onclick="clicksound.playclip()"><img src="Pictures/Drake5white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake6white.png'" onmouseout="this.src='Pictures/Drake5white.png'"/></a></td>
 
-				<td><a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="Pictures/Drake7white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake8white.png'" onmouseout="this.src='Pictures/Drake7white.png'"/></a></td>
+				<td><a href="#" onclick="clicksound.playclip()"><img src="Pictures/Drake7white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake8white.png'" onmouseout="this.src='Pictures/Drake7white.png'"/></a></td>
 
+<<<<<<< HEAD
 				<td><a href="#" onclick="playSound('SoundClips/cheese.mp3');"><img src="Pictures/Drake9white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake10white.png'" onmouseout="this.src='Pictures/Drake9white.png'"/></a></td>
+=======
+				<td><a href="#" onclick="clicksound.playclip()"><img src="Pictures/Drake1white.png" height="120" width="85" onmouseover="this.src='Pictures/Drake2white.png'" onmouseout="this.src='Pictures/Drake1white.png'"/></a></td>
+>>>>>>> 18abaf7ad366917e3bc5f91ee24106fe7405a2f0
 
 				</tr>
 
@@ -63,7 +59,18 @@
 
 				</tr>
 
+		<a href="https://twitter.com/share" class="twitter-share-button" 
+			data-url="https://drakeheads.com"
+		data-size="large" data-count="none">Tweet</a>
+		<script>
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+			if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+			fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+		</script>
+
 			</table>
 		</div>
+		<SCRIPT SRC="soundboard.js">
+		</SCRIPT>
 	</body>
 </html>
