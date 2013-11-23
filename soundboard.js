@@ -29,3 +29,4 @@
 
 var clicksound=createsoundbite("SoundClips/button1.mp3")
 var flexin=createsoundbite("SoundClips/Flexin'.mp3")
+var flexinshort=createsoundbite("SoundClips/Flexin' short.mp3")
