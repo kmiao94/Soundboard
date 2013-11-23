@@ -9,5 +9,5 @@ Things to do:
   </ul>
   <li>Use HTML5 to make it so Quicktime player isn't required to play files</li>
   <li>Add keyboard shortcuts</li>
-  <li>A share button?</li>
+  <li><b>A share button?</b></li>
 </ul>
