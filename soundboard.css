@@ -31,10 +31,11 @@ h1 {
 
 body {
   text-align: center;
+  background-image: url("Pictures/nwtsbackground.png");
 }
 
 #board {
-  background-image: url("Pictures/nwtsbackground.png");
+  
   background-size: cover;
   border-radius: 20px;
   height: 600px;
