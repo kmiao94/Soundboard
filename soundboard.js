@@ -27,4 +27,4 @@
 		}
 	}
 
-var clicksound=createsoundbite("SoundClips/cheese.mp3")
+var clicksound=createsoundbite("SoundClips/button1.mp3")
