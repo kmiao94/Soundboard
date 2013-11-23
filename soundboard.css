@@ -27,11 +27,13 @@
 h1 {
   font-family: futura;
   font-size: 72;
+  color: white;
 }
 
 body {
   text-align: center;
   background-image: url("Pictures/nwtsbackground.png");
+  background-size: cover;
 }
 
 #board {
