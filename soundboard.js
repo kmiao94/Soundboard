@@ -38,3 +38,13 @@ var love=createsoundbite("SoundClips/wannamakelove.mp3")
 var cake=createsoundbite("SoundClips/cake.mp3")
 var stfu=createsoundbite("SoundClips/Hoe stfu.mp3")
 var ill=createsoundbite("SoundClips/Ill nigga alert.mp3")
+
+
+window.addEventListener("keypress", doKeyDown, true);
+
+function doKeyDown(e){
+	alert(e.keyCode);
+	if (e.keyCode == 119){
+		stfu.playclip();
+	}
+}
