@@ -14,7 +14,7 @@ body {
   
   background-size: cover;
   border-radius: 20px;
-  height: 450px;
+  height: 550px;
   width: 900px;
   margin: 0 auto;
   padding-top: 10px;
@@ -22,7 +22,7 @@ body {
 
 table {
   width: 900px;
-  height: 450px;
+  height: 550px;
 }
 
 .imgopacity:hover {
