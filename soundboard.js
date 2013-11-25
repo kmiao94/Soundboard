@@ -44,7 +44,41 @@ window.addEventListener("keypress", doKeyDown, true);
 
 function doKeyDown(e){
 	alert(e.keyCode);
-	if (e.keyCode == 119){
+	if (e.keycode == 113){        //q
+	
+	} else if (e.keyCode == 119){ //w
 		stfu.playclip();
+	} else if (e.keyCode == 101){ //e
+	
+	} else if (e.keyCode == 114){ //r
+	
+	} else if (e.keyCode == 116){ //t
+	
+	} else if (e.keyCode == 121){ //y
+	
+	} else if (e.keyCode ==  97){ //a
+	
+	} else if (e.keyCode == 115){ //s
+	
+	} else if (e.keyCode == 100){ //d
+	
+	} else if (e.keyCode == 102){ //f
+	
+	} else if (e.keyCode == 103){ //g
+	
+	} else if (e.keyCode == 104){ //h
+	
+	} else if (e.keyCode == 122){ //z
+	
+	} else if (e.keyCode == 120){ //x
+	
+	} else if (e.keyCode ==  99){ //c
+	
+	} else if (e.keyCode == 118){ //v
+	
+	} else if (e.keyCode ==  98){ //b
+	
+	} else if (e.keyCode == 110){ //n
+	
 	}
 }
