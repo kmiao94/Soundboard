@@ -14,4 +14,7 @@ Things to do:
   <li>Choose/create sounds</li>
   <li>Short description on the side?</li>
   <li>Some kind of menu?</li>
+  <li>A toggle to turn keyboard shortcuts on and off (probably in the menu)</li>
+  <li>A function that links sound, highlighting and keyboard shortcuts</li>
+  <li>Responsive design</li>
 </ul>
