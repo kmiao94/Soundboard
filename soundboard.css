@@ -11,7 +11,6 @@ body {
 }
 
 #board {
-  
   background-size: cover;
   border-radius: 20px;
   height: 550px;
@@ -31,7 +30,15 @@ table {
 }
 
 @media (max-width: 900px) {
-  body {
-    background: red;
+
+  #board {
+    width: 700px;
+    height: 428px;
   }
+
+  table {
+    width: 700px;
+    height: 428px;
+  }
+
 }
