@@ -28,8 +28,8 @@ function createsoundbite(sound){
 	}
 
 	var clicksound=createsoundbite("SoundClips/button1.mp3")
-	var flexin=createsoundbite("SoundClips/NWTS/Flexin'.mp3")
-	var flexinshort=createsoundbite("SoundClips/NWTS/Flexin' short.mp3")
+	var flexin=createsoundbite("SoundClips/NWTS/Flexin.mp3")
+	var flexinshort=createsoundbite("SoundClips/NWTS/Flexin short.mp3")
 	var drunk=createsoundbite("SoundClips/Take Care/Areyoudrunk.mp3")
 	var barmitzvah=createsoundbite("SoundClips/NWTS/barmitzvah.mp3")
 	var high=createsoundbite("SoundClips/NWTS/morethanhigh.mp3")
