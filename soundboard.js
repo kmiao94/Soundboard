@@ -1,4 +1,5 @@
 var html5_audiotypes={
+"mp3": "audio/mpeg",
 "mp4": "audio/mp4",
 "ogg": "audio/ogg",
 "wav": "audio/wav"
