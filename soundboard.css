@@ -69,8 +69,14 @@ table {
 
 .twitter-share-button {
   position: fixed;
-  right: 10px;
+  left: 10px;
   bottom: 10px;
+}
+
+.fb-share-button {
+  position: absolute;
+  left: -580px;
+  bottom: -97px;
 }
 
 .hint {
@@ -79,7 +85,7 @@ table {
   text-decoration: none;
   color: white;
   position: fixed;
-  left: 25px;
+  right: 25px;
   bottom: 10px;
 }
 
