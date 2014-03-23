@@ -42,6 +42,7 @@ body {
   text-align: center;
   background-image: url("Pictures/nwtsbackground.png");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #board {
@@ -73,10 +74,10 @@ table {
   bottom: 10px;
 }
 
-.fb-share-button {
-  position: absolute;
-  left: -580px;
-  bottom: -97px;
+.fb {
+  position: fixed;
+  left: 105px;
+  bottom: 12px;
 }
 
 .hint {
