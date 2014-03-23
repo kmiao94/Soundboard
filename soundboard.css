@@ -20,14 +20,14 @@ h1 {
 .popup {
   position: absolute;
   width: 600px;
-  height: 250px;
+  height: 275px;
   display: none;
   background-color: rgba(255,255,255,0.8);
   text-align: center;
   border-radius: 10px 10px 10px 10px;
   padding: 25px;
 
-  font-family: helvetica;
+  font-family: palatino;
   font-size: 18px;
 
   /* center it ? */
@@ -77,7 +77,7 @@ table {
 .fb {
   position: fixed;
   left: 105px;
-  bottom: 12px;
+  bottom: 10px;
 }
 
 .hint {
