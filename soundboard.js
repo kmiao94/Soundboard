@@ -1,8 +1,8 @@
 var html5_audiotypes={
-"mp3": "audio/mpeg",
-"mp4": "audio/mp4",
-"ogg": "audio/ogg",
-"wav": "audio/wav"
+	"mp3": "audio/mpeg",
+	"mp4": "audio/mp4",
+	"ogg": "audio/ogg",
+	"wav": "audio/wav"
 }
 function createsoundbite(sound){
 	var html5audio=document.createElement('audio')
@@ -27,21 +27,18 @@ function createsoundbite(sound){
 		}
 	}
 
-	var clicksound=createsoundbite("SoundClips/button1.mp3")
-	var flexin=createsoundbite("SoundClips/NWTS/flexin.mp3")
 	var flexinshort=createsoundbite("SoundClips/NWTS/flexinshort.mp3")
-	var drunk=createsoundbite("SoundClips/Take Care/areyoudrunk.mp3")
 	var barmitzvah=createsoundbite("SoundClips/NWTS/barmitzvah.mp3")
 	var high=createsoundbite("SoundClips/NWTS/morethanhigh.mp3")
 	var started=createsoundbite("SoundClips/NWTS/started.mp3")
 	var sftb=createsoundbite("SoundClips/NWTS/startedfromthebottom.mp3")
 	var love=createsoundbite("SoundClips/NWTS/wannamakelove.mp3")
-	var cake=createsoundbite("SoundClips/Other/cake.mp3")
-	var stfu=createsoundbite("SoundClips/Other/hoestfu.mp3")
-	var ill=createsoundbite("SoundClips/Other/illniggaalert.mp3")
+	var cake=createsoundbite("SoundClips/NWTS/cake.mp3")
+	var stfu=createsoundbite("SoundClips/NWTS/hoestfu.mp3")
+	var ill=createsoundbite("SoundClips/NWTS/illniggaalert.mp3")
 	var phone=createsoundbite("SoundClips/NWTS/myphone.mp3")
 	var neverlovedus=createsoundbite("SoundClips/NWTS/neverlovedus.mp3")
-	var versace=createsoundbite("SoundClips/Other/versace.mp3")
+	var children=createsoundbite("SoundClips/NWTS/children.mp3")
 	var remember=createsoundbite("SoundClips/NWTS/remember.mp3")
 	var mawfucka=createsoundbite("SoundClips/NWTS/mawfucka.mp3")
 	var talkmore=createsoundbite("SoundClips/NWTS/talkmore.mp3")
@@ -68,7 +65,7 @@ function createsoundbite(sound){
 	} else if (e.keyCode == 116){ //t
 		neverlovedus.playclip();
 	} else if (e.keyCode == 121){ //y
-		versace.playclip();
+		children.playclip();
 	} else if (e.keyCode == 117){ //u
 		cake.playclip();
 	} else if (e.keyCode ==  97){ //a

@@ -2,6 +2,7 @@ h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 40px;
   color: white;
+  margin-top: 5%;
 }
 
 .overlay {
@@ -16,11 +17,12 @@ h1 {
   left: 0;
   bottom: 0;
   right: 0;
+  z-index: 3;
 }
 .popup {
   position: absolute;
   width: 600px;
-  height: 275px;
+  height: 400px;
   display: none;
   background-color: rgba(255,255,255,0.8);
   text-align: center;
@@ -31,10 +33,11 @@ h1 {
   font-size: 18px;
 
   /* center it ? */
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-left: -320px;
   margin-top: -125px;
+  z-index: 4;
 }
 
 body {
@@ -45,18 +48,9 @@ body {
   background-attachment: fixed;
 }
 
-#board {
-  background-size: cover;
-  border-radius: 20px;
-  height: 500px;
-  width: 1100px;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-table {
-  width: 1100px;
-  height: 500px;
+.top-buffer {
+  padding-top: 30px;
+  margin-bottom: 150px;
 }
 
 .imgopacity {
@@ -89,17 +83,3 @@ table {
   right: 25px;
   bottom: 10px;
 }
-
-/*@media (max-width: 900px) {
-
-  #board {
-    width: 700px;
-    height: 428px;
-  }
-
-  table {
-    width: 700px;
-    height: 428px;
-  }
-
-}*/
