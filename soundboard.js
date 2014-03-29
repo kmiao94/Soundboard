@@ -1,6 +1,5 @@
 var html5_audiotypes={
 	"mp3": "audio/mpeg",
-	"mp4": "audio/mp4",
 	"ogg": "audio/ogg",
 	"wav": "audio/wav"
 }
@@ -21,8 +20,7 @@ function createsoundbite(sound){
 			html5audio.play()
 		}
 		return html5audio
-	}
-	else{
+	} else {
 		return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}
 	}
 }
@@ -54,47 +52,47 @@ var nwts=createsoundbite("SoundClips/NWTS/nwts.mp3")
 window.addEventListener("keypress", doKeyDown, true);
 
 function doKeyDown(e){
-	if (e.keyCode == 113){        //q
+	if (e.charCode == 113){        //q
 		intro.playclip();
-	} else if (e.keyCode == 119){ //w
+	} else if (e.charCode == 119){ //w
 		phone.playclip();
-	} else if (e.keyCode == 101){ //e
+	} else if (e.charCode == 101){ //e
 		started.playclip();
-	} else if (e.keyCode == 114){ //r
+	} else if (e.charCode == 114){ //r
 		flexinshort.playclip();
-	} else if (e.keyCode == 116){ //t
+	} else if (e.charCode == 116){ //t
 		neverlovedus.playclip();
-	} else if (e.keyCode == 121){ //y
+	} else if (e.charCode == 121){ //y
 		child.playclip();
-	} else if (e.keyCode == 117){ //u
+	} else if (e.charCode == 117){ //u
 		cake.playclip();
-	} else if (e.keyCode ==  97){ //a
+	} else if (e.charCode ==  97){ //a
 		barmitzvah.playclip();
-	} else if (e.keyCode == 115){ //s
+	} else if (e.charCode == 115){ //s
 		high.playclip();
-	} else if (e.keyCode == 100){ //d
+	} else if (e.charCode == 100){ //d
 		remember.playclip();
-	} else if (e.keyCode == 102){ //f
+	} else if (e.charCode == 102){ //f
 		mawfucka.playclip();
-	} else if (e.keyCode == 103){ //g
+	} else if (e.charCode == 103){ //g
 		courtney.playclip();
-	} else if (e.keyCode == 104){ //h
+	} else if (e.charCode == 104){ //h
 		sftb.playclip();
-	} else if (e.keyCode == 106){ //j
+	} else if (e.charCode == 106){ //j
 		ill.playclip();
-	} else if (e.keyCode == 122){ //z
+	} else if (e.charCode == 122){ //z
 		talkmore.playclip();
-	} else if (e.keyCode == 120){ //x
+	} else if (e.charCode == 120){ //x
 		allwedo.playclip();
-	} else if (e.keyCode ==  99){ //c
+	} else if (e.charCode ==  99){ //c
 		hotlove.playclip();
-	} else if (e.keyCode == 118){ //v
+	} else if (e.charCode == 118){ //v
 		platinum.playclip();
-	} else if (e.keyCode ==  98){ //b
+	} else if (e.charCode ==  98){ //b
 		odb.playclip();
-	} else if (e.keyCode == 110){ //n
+	} else if (e.charCode == 110){ //n
 		nwts.playclip();
-	} else if (e.keyCode == 109){ //m
+	} else if (e.charCode == 109){ //m
 		stfu.playclip();
 	}
 }
@@ -104,7 +102,7 @@ $(document).ready(function() {
 		e.stopPropagation();
 		$(".overlay, .popup").fadeIn();
 	});
-	$("body").click(function(e) {
+	$(document).click(function(e) {
 		$(".overlay, .popup").fadeOut();
 	});
 });
