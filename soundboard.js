@@ -105,4 +105,12 @@ $(document).ready(function() {
 	$(document).click(function(e) {
 		$(".overlay, .popup").fadeOut();
 	});
+	$(document).on("tap", function() {
+		$(".overlay, .popup").fadeOut();
+	});
+
+	$('img').on("click tap", function(e) {
+		var clip = this.id;
+		window[clip].playclip();
+	});
 });

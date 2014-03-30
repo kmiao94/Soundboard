@@ -1,3 +1,10 @@
+body {
+  margin-top: 3%;
+  text-align: center;
+  background-image: url("Pictures/nwtsbackground.png");
+  background-attachment: fixed;
+}
+
 h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 40px;
@@ -37,16 +44,13 @@ h1 {
   z-index: 4;
 }
 
-body {
-  margin-top: 3%;
-  text-align: center;
-  background-image: url("Pictures/nwtsbackground.png");
-  background-attachment: fixed;
+.buffer-top {
+  padding-top: 30px;
+  padding-bottom: 180px;
 }
 
-.top-buffer {
-  padding-top: 30px;
-  padding-bottom: 150px;
+.buffer-middle {
+  padding-bottom: 180px;
 }
 
 .imgopacity {
