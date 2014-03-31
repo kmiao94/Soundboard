@@ -112,11 +112,6 @@ $(document).ready(function() {
 		$(".overlay, .popup").fadeOut();
 	});
 
-	$('.hover').bind('touchstart touchend', function(e) {
-		e.preventDefault();
-		$(this).toggleClass('hover_effect');
-	});
-
 	$('img').on("click", function() {
 		var clip = this.id;
 		window[clip].playclip();
