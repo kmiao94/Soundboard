@@ -15,9 +15,14 @@ function createsoundbite(sound){
 		}
 		html5audio.load()
 		html5audio.playclip=function(){
-			html5audio.pause()
-			html5audio.currentTime=0
-			html5audio.play()
+			try {
+				html5audio.pause()
+				html5audio.currentTime=0
+				html5audio.play()
+			} catch (e) {
+				html5audio.play()
+			}
+
 		}
 		return html5audio
 	} else {
@@ -73,9 +78,9 @@ function doKeyDown(e){
 	} else if (e.charCode == 100){ //d
 		remember.playclip();
 	} else if (e.charCode == 102){ //f
-		mawfucka.playclip();
-	} else if (e.charCode == 103){ //g
 		courtney.playclip();
+	} else if (e.charCode == 103){ //g
+		mawfucka.playclip();
 	} else if (e.charCode == 104){ //h
 		sftb.playclip();
 	} else if (e.charCode == 106){ //j
@@ -102,14 +107,17 @@ $(document).ready(function() {
 		e.stopPropagation();
 		$(".overlay, .popup").fadeIn();
 	});
-	$(document).click(function(e) {
-		$(".overlay, .popup").fadeOut();
-	});
-	$(document).on("tap", function() {
+
+	$(document).on("click", function() {
 		$(".overlay, .popup").fadeOut();
 	});
 
-	$('img').on("click tap", function(e) {
+	$('.hover').bind('touchstart touchend', function(e) {
+		e.preventDefault();
+		$(this).toggleClass('hover_effect');
+	});
+
+	$('img').on("click", function() {
 		var clip = this.id;
 		window[clip].playclip();
 	});
