@@ -1,23 +1,104 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Drake Soundboard</title>
-		<link rel="stylesheet" type="text/css" href="soundboard.css">
-		<script language="javascript" type="text/javascript">
- 		function playSound(soundfile) {
- 		document.getElementById("cheese").innerHTML=
- 		"<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\"loop=\"false\" />";
- 		}
- 		</script>
-	</head>
-	<body>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="soundboard.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="soundboard.js">
+	</script>
+	<title>Nothing Was the Soundboard</title>
+	<meta property="og:title" content="Nothing Was the Soundboard" />
+	<meta property="og:url" content="http://drakesoundboard.appspot.com" />
+	<meta property="og:image" content="http://drakesoundboard.appspot.com/Pictures/Thumbnail.png" />
+	<meta property="og:description" content="Drake on his worst behavior." />
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="overlay"></div>
+	<div class="popup">Created by Kevin, Tait & Dan<br><br>The Nothing Was the Soundboard is an unofficial fan site dedicated to the artist Drake and his amazing 2013 album <i>Nothing Was the Same</i>. It is in no way affiliated with Drake, Jay Z, 2 Chainz, Big Sean, OVO Sound, Young Money Entertainment, Cash Money Records, Republic Records, or any related entities. Regarding all names, images, and audio contained in this site, the copyright holders own it, own it, own it, own it. No copyright infringement of any kind is intended. Mawfuckas never loved us.
+		<br><br><br><br>
+		Hint: Use your keyboard (QWERTY) to play the clips. </div>
+
+
+		<h1>NOTHING WAS THE SOUNDBOARD</h1>
 		<div class="container">
-			<h1>Drake Soundboard</h1>
+			<div class="buffer-top">
+				<div class="row">
+
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="intro" src="Pictures/Drake2white.png" height="120" width="85"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="phone" src="Pictures/Drake1white.png" height="120" width="88"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="started" src="Pictures/Drake3white.png" height="200" width="95"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="flexinshort" src="Pictures/Drake4white.png" height="200" width="94"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="neverlovedus" src="Pictures/Drake5white.png" height="200" width="94"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="child" src="Pictures/Drake6white.png" height="200" width="94"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="cake" src="Pictures/jayzwhite.png" height="200" width="106"/></p></div>
+
+				</div>
+			</div>
+
+			<div class="buffer-middle">
+				<div class="row">
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="barmitzvah" src="Pictures/Drake13white.png" height="200" width="105"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="high" src="Pictures/Drake16white.png" height="200" width="101"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="remember" src="Pictures/Drake11.png" height="200" width="96"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="courtney" src="Pictures/Drake8white.png" height="200" width="94"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="mawfucka" src="Pictures/Drake12.png" height="200" width="100"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="sftb" src="Pictures/Drake9white.png" height="200" width="88"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="ill" src="Pictures/2chainzwhite.png" height="200" width="113"/></p></div>
+
+				</div>
+			</div>
+			<div class="buffer-bottom">
+				<div class="row">
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="talkmore" src="Pictures/Drake14white.png" height="200" width="90"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="allwedo" src="Pictures/Drake15white.png" height="200" width="105"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="hotlove" src="Pictures/Drake7white.png" height="200" width="95"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="platinum" src="Pictures/Drake17white.png" height="200" width="86"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="odb" src="Pictures/Drake10white.png" height="200" width="85"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="nwts" src="Pictures/Drake18white.png" height="200" width="105"/></p></div>
+
+					<div class="col-xs-7 col-md-3"><p><img class="imgopacity" id="stfu" src="Pictures/BigSean1white.png" height="200" width="88"/></p></div>
+
+				</div>
+			</div>
 		</div>
-		<a href="#" class="testbutton" onclick="playSound('SoundClips/cheese.mp3');">Cheese</a>
-		<a href="#" class="testbutton">Flexin'</a>
-		<a href="#" class="testbutton">Look What You've Done</a>
-		<a href="#" class="testbutton">Own it</a>
-		<a href="#" class="testbutton">Started</a>
-		<span id="cheese"></span>
+
+		<div class="fb">
+			<div class="fb-share-button" data-href="http://drakesoundboard.appspot.com" data-type="button_count"></div>
+		</div>
 	</body>
-</html>
+	<footer>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://drakesoundboard.appspot.com" data-text="Nothing was the same, dawg.">Tweet</a>
+		<a class="hint">?</a>
+	</footer>
+	</html>
